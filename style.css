@@ -1,0 +1,210 @@
+body {
+    font-family: Ubuntu;
+}
+
+.header,
+.personal_details,
+.main-body {
+    padding: 25px 0 0 35px;
+}
+
+.header {
+    background-color: #0c347de0;
+    font-family: Ubuntu;
+}
+
+.header h1 {
+    font-size: 47px;
+    color: white;
+}
+
+.header h4 {
+    /* font-family: monospace; */
+    color: #5cf15ca3;
+}
+
+.header p {
+    font-size: 18px;
+    width: 90%;
+    margin: 0;
+    padding: 10px 0 35px 0;
+    color: white;
+    font-family: Ubuntu;
+}
+
+.personal_details {
+    background: #04245feb;
+    color: white;
+}
+
+.personal_details .btn-group {
+    align-items: center;
+}
+
+.personal_details i {
+    font-size: 20px
+}
+
+.personal_details span {
+    font-size: 17px;
+    padding-left: 14px;
+    font-family: Ubuntu;
+}
+
+.title {
+    display: inline-block;
+    color: #35b34b;
+    font-size: 28px;
+    font-weight: 600;
+    border-bottom: 3px solid #35b34b;
+    /* min-width: 115px; */
+}
+
+.list-format {
+    list-style-type: none;
+    padding: 0;
+}
+
+
+.details {
+    margin: 20px 0;
+}
+
+.detail-title {
+    margin-bottom: 0px;
+    margin-top: -15px;
+    font-size: 1.5rem;
+    font-weight: 600;
+}
+
+.detail-head {
+    font-size: 26px;
+    color: #000000d9;
+}
+
+.detail-head i{
+    text-decoration: none;
+    color: #35b34b;
+    padding-left: 6px;
+    font-size: 18px
+}
+
+.duration span {
+    color: #35b34b;
+    font-style: italic;
+}
+
+.job-title {
+    color: #35b34b;
+    font-weight: 600;
+}
+
+.job-description,
+.project-name ul {
+    list-style: none;
+    padding-left: 18px;
+}
+
+.job-description>li,
+.project-name ul li {
+    color: black;
+    padding-right: 60px;
+    margin-bottom: .5rem;
+    text-align: justify;
+}
+
+.job-description > li {
+    margin-bottom: -0.5rem;
+}
+
+.job-description>li::before,
+.project-name ul li::before {
+    font-size: 20px;
+    color: #35b34b;
+    content: '\2022';
+    margin-left: -1em;
+    padding-right: 8px;
+}
+
+
+.contact span:first-child {
+    color: #35b34b;
+    font-style: italic;
+}
+
+.skill-title {
+    font-size: 24px;
+    font-family: Ubuntu;
+    margin-top: 20px;
+}
+
+.skills .details {
+    display: inline-block;
+    margin: 5px 2px;
+    min-width: 100px;
+    background: #2d4e8aeb;
+    text-align: center;
+    padding: 4px;
+    border-radius: 5px;
+    color: white;
+    font-family: Ubuntu;
+    font-weight: 600;
+    font-size: 14px;
+}
+
+.project-title {
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.language li {
+    display: inline-block;
+    min-width: 33%;
+    margin-bottom: 15px;
+
+}
+
+.level {
+    color: #1b1d8c;
+    font-size: 13px;
+    font-family: Ubuntu;
+    font-style: italic;
+}
+
+.certificate .list-format li {
+    margin-bottom: 5px;
+    color: black;
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.certificate li a {
+    text-decoration: none;
+    color: #35b34b;
+    padding-left: 6px;
+}
+
+.interest li {
+    display: inline-block;
+    padding: 2px 15px;
+    margin-right: 10px;
+    border: 1px solid #b1b1b1;
+    border-radius: 4px;
+    color: #2d2b2b;
+    min-width: 100px;
+    text-align: center;
+}
+
+.personal_details span a {
+    color: white;
+    text-decoration: none;
+}
+
+.group-data {
+    font-size: 18px;
+}
+
+#technologies-used {
+    font-weight: 600;
+    list-style-type: disc;
+}
